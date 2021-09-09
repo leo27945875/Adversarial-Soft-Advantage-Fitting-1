@@ -1,4 +1,3 @@
-```math
 # Adversarial Soft Advantage Fitting 學習筆記
 
 # 簡介ASAF
@@ -168,4 +167,4 @@ ASAF之所以可以使用structured discriminator，是因為我們知道traject
 ![圖片 93.png](image/%E5%9C%96%E7%89%87_93.png)
 
 ![圖片 93.png](image/%E5%9C%96%E7%89%87_93%201.png)
-```
+
