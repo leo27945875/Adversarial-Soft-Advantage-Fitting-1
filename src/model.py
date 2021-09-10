@@ -193,7 +193,7 @@ class ASAF1:
         self.policy.eval()
     
     def Save(self, path):
-        if os.path.exists(path):
+        while os.path.exists(path):
             path, ext = os.path.splitext(path)
             path += ('_new' + ext)
         
