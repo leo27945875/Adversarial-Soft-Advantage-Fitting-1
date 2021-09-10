@@ -74,8 +74,8 @@ def TestAll(envName, hiddenDim, testNumSeed=50):
 if __name__ == '__main__':
 
     TestAll(
-        envName     = "InvertedDoublePendulumBulletEnv-v0",
-        hiddenDim   = 256
+        envName    = "Ant-v2",
+        hiddenDim  = 256
     )
 
 
