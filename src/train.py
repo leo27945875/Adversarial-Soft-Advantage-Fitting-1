@@ -34,11 +34,11 @@ SCHEDULER_WARMUP      = 30
 NETWORK_HIDDEN_DIM    = 128
 SQUASHING_FUNCTION    = None
 
-IS_TEST_AGENT         = False
+IS_TEST_AGENT         = True
 IS_EARLY_STOPPING     = False
 TEST_NUM_EPISODE      = 5
-CAN_TEST_REWARD       = 0
-END_TRAIN_REWARD      = 2000
+CAN_TEST_REWARD       = 3000
+END_TRAIN_REWARD      = 5000
 
 
 def Train(expertDemoPath, maxExpertDemo, envName, endTrainReward, maxTrans, numTransUpdate, epochsPerUpdate, batchSize, 
