@@ -7,6 +7,9 @@ https://www.notion.so/Adversarial-Soft-Advantage-Fitting-441698eb0ccb40eab4f5927
 
 ## Description
 
+### Preparing expert demos:
+Every expert demo file must be in this form: [[np.array(...), np.array(...)], [np.array(...), np.array(...)], ...]
+
 ### Training:
 Adjust the parameters in ./src/train.py and then run it.
 
