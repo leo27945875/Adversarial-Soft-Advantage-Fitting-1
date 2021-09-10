@@ -57,7 +57,7 @@ def GetLR(optimizer):
 
 
 def SavePickle(obj, path):
-    if os.path.exists(path):
+    while os.path.exists(path):
         path, ext = os.path.splitext(path)
         path += ('_new' + ext)
 
