@@ -17,4 +17,5 @@ Adjust the parameters in ./src/train.py and then run it.
 Adjust the parameters in ./src/test.py and then run it.
 
 ## Experiment
-![](./image/SS%201.png)
+![](./image/SS%201.png)  
+![](./image/SS%202.png)
