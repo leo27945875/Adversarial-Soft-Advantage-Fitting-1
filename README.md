@@ -1,6 +1,5 @@
 # Adversarial Soft Advantage Fitting - 1 (ASAF-1)
 Imitation learning without policy optimization !
-(paper: https://arxiv.org/abs/2006.13258)
 
 ## Introduction (In Traditional Chinese):
 https://www.notion.so/Adversarial-Soft-Advantage-Fitting-441698eb0ccb40eab4f59275d637466a
@@ -19,3 +18,6 @@ Adjust the parameters in ./src/test.py and then run it.
 ## Experiment
 ![](./image/SS%201.png)  
 ![](./image/SS%202.png)
+
+## Reference
+https://arxiv.org/abs/2006.13258
